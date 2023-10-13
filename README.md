@@ -26,4 +26,4 @@ https://mylariprasad.github.io/text-transformer-react
 
 ## Run development server
 
-npm start
+- npm start
