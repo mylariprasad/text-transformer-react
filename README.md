@@ -19,9 +19,9 @@ https://mylariprasad.github.io/text-transformer-react
 - **React Router:** A library for handling navigation and routing in React apps.
 - **Bootstrap:** A popular CSS framework for building responsive and visually appealing web pages.
 
-## Instal Depedencies
+## Install Depedencies
 
-- cd TextUtils
+- cd text-transformer-react
 - npm install
 
 ## Run development server
