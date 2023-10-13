@@ -38,13 +38,13 @@ function App(){
   }
   return (
     <>
-    <Router>
+    <Router basename="/text-transformer-react">
     <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} About="About TextUtils"/>
     <Alert alert={alert}/>
     <div className="container my-3">
     <Routes>
         <Route path="/About" element={<About mode={mode}/>} />
-        <Route path="/text-transformer-react" element= {<TextForm heading="Enter your text to analyze" showAlert={showAlert} mode={mode}/>} />
+        <Route path="/" element= {<TextForm heading="Enter your text to analyze" showAlert={showAlert} mode={mode}/>} />
     </Routes>
     </div>
     </Router>
