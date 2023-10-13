@@ -44,7 +44,7 @@ function App(){
     <div className="container my-3">
     <Routes>
         <Route path="/About" element={<About mode={mode}/>} />
-        <Route path="/" element= {<TextForm heading="Enter your text to analyze" showAlert={showAlert} mode={mode}/>} />
+        <Route path="/text-transformer-react" element= {<TextForm heading="Enter your text to analyze" showAlert={showAlert} mode={mode}/>} />
     </Routes>
     </div>
     </Router>
