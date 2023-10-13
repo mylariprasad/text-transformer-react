@@ -21,8 +21,8 @@ https://mylariprasad.github.io/text-transformer-react
 
 ## Instal Depedencies
 
-cd TextUtils
-npm install
+- cd TextUtils
+- npm install
 
 ## Run development server
 
